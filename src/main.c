@@ -3,7 +3,7 @@
 
 int main (void){
     
-    int token;
+    enum Tokens token;
     int i = 0;
     token = getToken();
 
@@ -15,14 +15,7 @@ int main (void){
             printf("Separador: , \n");
             break;
         case CAD:
-            printf("Cadena: "); 
-            while(cadena[i] != '\0'){
-
-               printf("%c", cadena[i]); 
-               i++;
-
-            }
-            printf("\n");
+            printf("Cadena: %s \n",cadena); 
             break;
         }
 
@@ -33,3 +26,14 @@ int main (void){
 
     return 0;
 }
+
+/*
+while(cadena[i] != '\0'){
+
+               printf("%c", cadena[i]); 
+               i++;
+
+            }
+
+        printf("\n");
+*/
