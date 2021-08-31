@@ -3,7 +3,8 @@
 
 int main (void){
     
-    int token,i;
+    int token;
+    int i = 0;
     token = getToken();
 
     while(token != FDT){

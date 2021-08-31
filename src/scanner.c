@@ -3,9 +3,10 @@
 
 int getToken (){
 
-    char c = ' ';
+    char c;
     int salida;
 
+    c = getchar();
 
     while(isspace(c)){
         c = getchar();
@@ -32,7 +33,7 @@ int getToken (){
 
         };
         ungetc(c, stdin);
-        cadena[i+1] = '\0';
+        cadena[i] = '\0';
         salida = CAD; 
     }
 
