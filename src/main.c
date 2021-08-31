@@ -26,14 +26,3 @@ int main (void){
 
     return 0;
 }
-
-/*
-while(cadena[i] != '\0'){
-
-               printf("%c", cadena[i]); 
-               i++;
-
-            }
-
-        printf("\n");
-*/
